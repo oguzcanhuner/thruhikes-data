@@ -1,0 +1,11 @@
+[out:json];
+
+(
+  // get pieterpad route relations by selecting the two refs used for this hike.
+  relation["ref"="LAW 9-1"]({{bbox}});
+  relation["ref"="LAW 9-2"]({{bbox}});
+);
+
+out body;
+>;
+out skel qt;

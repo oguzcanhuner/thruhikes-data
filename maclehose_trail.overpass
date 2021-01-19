@@ -1,0 +1,10 @@
+[out:json];
+
+(
+  // get maclehose route relations
+  relation["name:en"~"^MacLehose Trail"]({{bbox}});
+);
+
+out body;
+>;
+out skel qt;

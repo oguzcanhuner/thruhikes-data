@@ -1,0 +1,9 @@
+[out:json];
+
+(
+  // get ottertrail route relations
+  relation["name"="Otter Trail"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
