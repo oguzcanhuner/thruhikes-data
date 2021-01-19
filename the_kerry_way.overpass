@@ -1,0 +1,9 @@
+[out:json];
+
+(
+  // get the kerry way route relations
+  relation["name"="The Kerry Way"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
