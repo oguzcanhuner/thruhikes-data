@@ -1,0 +1,9 @@
+[out:json];
+
+(
+  // get Alta via 1 route relations
+  relation["ref"="AV1"]({{bbox}});
+);
+out body;
+>;
+out skel qt;

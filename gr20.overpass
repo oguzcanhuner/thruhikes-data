@@ -1,0 +1,9 @@
+[out:json];
+
+(
+  // get GR20 route relations
+  relation["ref"="GR 20"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
