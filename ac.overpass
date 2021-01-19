@@ -1,0 +1,9 @@
+[out:json];
+
+(
+  // get Annapurna circuit route relations
+  relation["ref"="AC"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
